@@ -6,7 +6,7 @@
 # the Python application requires, including Python itself.
 
 # Usage: FROM [image name]
-FROM python:3.4-alpine
+FROM python:3.11.0rc1-alpine
 
 # Add the current directory . into the /code in the image
 ADD . /code
