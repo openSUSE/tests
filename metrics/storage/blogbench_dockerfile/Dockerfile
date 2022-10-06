@@ -5,7 +5,7 @@
 # Set up an Ubuntu image with 'blogbench' installed
 
 # Usage: FROM [image name]
-FROM ubuntu
+FROM ubuntu:22.04
 
 # Version of the Dockerfile
 LABEL DOCKERFILE_VERSION="1.0"
