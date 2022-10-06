@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 # Set up an Ubuntu image with the components needed to run `fio`
-FROM ubuntu
+FROM ubuntu:22.04
 
 # Version of the Dockerfile
 LABEL DOCKERFILE_VERSION="1.0"
